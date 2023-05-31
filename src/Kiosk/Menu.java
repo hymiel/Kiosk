@@ -7,7 +7,7 @@ public class Menu {
     public Menu() {
         //기본 생성자
     }
-    public static String title = "Welcome to Connects Coffee Espresso Bar";
+    public static String title = "Welcome to Connects Coffee Espresso Bar"; //title
     public Menu(String name, String explanation) {
         this.name = name;
         this.explanation = explanation;

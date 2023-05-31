@@ -34,6 +34,6 @@ public class Order{    //Product class 상속
             for (Commodity item : items) {
                 total += item.getPrice();
             }
-            return total;
+            return total; //리턴값
         }
     }

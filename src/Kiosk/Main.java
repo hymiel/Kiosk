@@ -14,7 +14,7 @@ public class Main {
         System.out.println();
 
         while (true) {
-            System.out.println(Menu.title);
+            System.out.println(Menu.title); // title
             System.out.println(" ========= [CONNECTS MENU] ========= ");
             System.out.println("아래 상품 메뉴판을 보시고, 상품을 골라 입력해주세요.");
             System.out.println();
