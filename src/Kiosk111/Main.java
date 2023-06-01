@@ -1,10 +1,8 @@
-package Kiosk;
+package Kiosk111;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Formatter;
-import java.io.PrintStream;
+
 
 
 public class Main {
@@ -12,7 +10,23 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println();
+        HashMap<String, String> map1 = new HashMap<>();
+        map1.put("coffe1","에스프레소");
+        map1.put("coffe2","카페인없는주스");
+        map1.put("key","value");
+        map1.put("b","2");
+        map1.put("c","3");
+        map1.put("d","4");
+        map1.put("e","5");
+        map1.put("f","6");
+        map1.put("g","7");
+        map1.put("h","8");
+        map1.size();
+        System.out.println(map1.size());
+        System.out.println(map1.get("e"));
 
+
+//        boolen isStatus = true;
         while (true) {
             System.out.println(Menu.title); // title
             System.out.println(" ========= [CONNECTS MENU] ========= ");
@@ -46,12 +60,19 @@ public class Main {
                 case 3:
                     System.out.println("[ DESSERT MENU ]");
                     System.out.println("1. Salted Butter Bread   | 3500원 | 좋은 질감과 풍미가 가득한 빵");
-                    System.out.println("2. Twist Stick    | 2300원 | 40% 페스츄리 질감의 달콤한 꽈배기 빵");
+                    System.out.println("2. Twist Stick           | 2300원 | 40% 페스츄리 질감의 달콤한 꽈배기 빵");
                     break;
                 default:
                     System.out.println("유효하지 않은 선택입니다. 다시 선택해주세요.");
                     continue;
             }
+            scanner.nextInt();
+            int CafeInfo =  - 1;
+
+            System.out.println("위 메뉴를 장바구니에 추가하시겠습니까?");
+            System.out.println("1. 확인       2. 취소");
+
+
             if (order == 5) {
                 System.out.println("\n1. 주문      2. 메뉴판");
                 System.out.print("선택하세요: ");
@@ -68,9 +89,12 @@ public class Main {
                 }
             } else if (order == 6) {
                 System.out.println("진행중인 주문이 취소되었습니다.");
-                break;
+//
+//                isStatus = false;
+//                break;
             }
-
+//
+//        While (isStatus){
 
 
         }
