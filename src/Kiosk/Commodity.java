@@ -9,7 +9,7 @@ public class Commodity extends Menu {
 
 
     public Commodity() {
-    }
+    } //기본 생성자
 
     public Commodity(String name, String explanation, double price) {
         super(name, explanation); // 상속받아 온 조상의 생성자를 호출할 때 사용

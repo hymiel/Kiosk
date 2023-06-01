@@ -6,12 +6,12 @@ public class Menu {
     String explanation; // 메뉴 설명
 
     public Menu() {
-    }
+    } //기본 생성자
 
     public Menu(String name, String explanation) {
         this.name = name;
         this.explanation = explanation;
-    }
+    } //매개변수가 있는 생성자
 }
 
 

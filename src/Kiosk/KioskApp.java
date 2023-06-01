@@ -58,7 +58,7 @@ public class KioskApp{
             System.out.println(menuList.get(5)); // HashMap 호출
             System.out.println("선택 : ");
             int order = scanner.nextInt(); // 유저가 선택한 번호를 변수 int order에 저장
-
+            // 유저 번호 선택에 따른 메뉴판 출력
             if (order == 1) {
                 commodity.output(espresso); //에스프레소 종류가 commodity 메서드 출력
                 //에스프레소 선택 시

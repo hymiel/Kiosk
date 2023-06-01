@@ -7,7 +7,7 @@ public class Order {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.getMessage();
-        }
+        } //2초 기다렸다가 메뉴로 돌아가기
     }
 
 }
